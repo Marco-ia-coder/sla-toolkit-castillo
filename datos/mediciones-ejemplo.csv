@@ -1,0 +1,7 @@
+fecha,metrica,valor,unidad
+2026-10-01,disponibilidad,99.95,%
+2026-10-05,latencia,18.5,ms
+2026-10-10,jitter,3.2,ms
+2026-10-15,perdida_paquetes,0.05,%
+2026-10-20,throughput,96.0,%
+2026-10-25,disponibilidad,99.50,%

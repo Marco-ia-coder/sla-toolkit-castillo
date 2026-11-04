@@ -1,0 +1,29 @@
+disponibilidad:
+  limite: 99.9
+  operador: ">="
+  unidad: "%"
+  peso_penalizacion: 0.10
+
+latencia:
+  limite: 20.0
+  operador: "<="
+  unidad: "ms"
+  peso_penalizacion: 0.05
+
+jitter:
+  limite: 5.0
+  operador: "<="
+  unidad: "ms"
+  peso_penalizacion: 0.05
+
+perdida_paquetes:
+  limite: 0.1
+  operador: "<="
+  unidad: "%"
+  peso_penalizacion: 0.10
+
+throughput:
+  limite: 95.0
+  operador: ">="
+  unidad: "%"
+  peso_penalizacion: 0.05

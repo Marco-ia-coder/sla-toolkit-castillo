@@ -1,0 +1,28 @@
+servicio: "Internet dedicado simétrico 200 Mbps - Agricola Valle de Elqui"
+periodo: "2026-09"
+minutos_periodo: 43200
+cobertura_minima: 0.90
+cargo_mensual: 1200000
+tope_credito: 0.50
+
+metricas:
+  disponibilidad:
+    limite: 99.9
+    operador: ">="
+    unidad: "%"
+  latencia:
+    limite: 30.0
+    operador: "<="
+    unidad: "ms"
+  jitter:
+    limite: 10.0
+    operador: "<="
+    unidad: "ms"
+  perdida_paquetes:
+    limite: 0.5
+    operador: "<="
+    unidad: "%"
+  throughput:
+    limite: 180.0
+    operador: ">="
+    unidad: "Mbps"

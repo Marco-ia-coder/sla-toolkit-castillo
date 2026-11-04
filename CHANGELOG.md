@@ -11,3 +11,8 @@ Todas las modificaciones notables de este toolkit serán documentadas en este ar
 * Repositorio de fórmulas matemáticas y de ingeniería de red con ejemplos resueltos[cite: 3].
 * Automatización de cálculo de cumplimiento y créditos en Python (`calc_sla.py`)[cite: 3].
 * Caso de ejemplo práctico aplicado a un enlace dedicado corporativo[cite: 3].
+
+## [1.1.0] - 2026-11-04
+
+### Añadido
+- Caso de aplicación práctica completo para Agrícola Valle de Elqui SpA (`ejemplos/caso-valle-elqui/`) con su respectivo informe técnico, contrato SLA y dataset de mediciones.
